@@ -1,0 +1,76 @@
+body{
+  background: url("hr.png");
+}
+h1{
+  color:white;
+  font-family:  'Montserrat', sans-serif;
+}
+.signin{
+  background:transparent;
+
+  border-radius: 10px;
+  border-color: white;
+  box-shadow: 2px 5px 6px 0 #DBEDF3;
+  padding:40px;
+  width:330px;
+  margin: auto;
+  margin-top: 100px;
+  height: 400px;
+  margin-left: 480px;
+
+}
+form{
+  width: 240px;
+  text-align: center;
+  margin-top: 5px;
+}
+input{
+  width: 240px;
+  text-align: center;
+  background:transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-family:  'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 200px;
+  padding: 10px 0;
+  transition: border 0.5s;
+  outline:none;
+  color:#fff;
+
+}
+input[type=button]{
+  border:none;
+  width:190px;
+  background:white;
+  color:#000;
+  font-size: 16px;
+  line-height: 25px;
+  padding:10px 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+input[type=button]:hover{
+  color:#fff;
+  background-color: black;
+}
+#container a{
+  color: white;
+  text-decoration: blink;
+  margin: 5px;
+  font-family: sans-serif;
+}
+#container a:hover{
+  color: skyblue;
+  background-color: black;
+}
+
+::placeholder{
+  color: aliceblue;
+  opacity:0.5;
+}
+.a11{
+
+margin-top: 10px;
+
+}

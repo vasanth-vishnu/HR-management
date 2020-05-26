@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+
+   background: url("hr.png");
+
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.signin{
+  background:transparent;
+  border-radius: 10px;
+  border-color: white;
+  box-shadow: 10px 10px 10px 10px #DBEDF3;
+  padding:40px;
+  width:430px;
+  margin: auto;
+  height: 340px;
+  color:white;
+  font-family:  'Montserrat', sans-serif;
+  opacity:0.7;
+  position: absolute;
+  left:500px;
+  top:150px;
+}
+a{
+  text-decoration: none;
+  color:white;
+font-family:  'Montserrat', sans-serif;
+
+}
+a:hover{
+  color:red;
+  box-shadow: 10px 10px 10px 10px #DBEDF3;
+}
+
+input[type=button]:hover{
+  color:#fff;
+  background-color: black;
+}

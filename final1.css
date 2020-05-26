@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+
+   background: url("hr.png");
+
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.signin{
+  background:transparent;
+  border-radius: 10px;
+  border-color: white;
+  box-shadow: 2px 5px 6px 0 #DBEDF3;
+  padding:40px;
+  width:530px;
+  margin: auto;
+  margin-top: 0;
+  height: 340px;
+  margin-left: 50px;
+  margin-top: 25px;
+
+}
+input{
+  width: 240px;
+  text-align: center;
+  background:transparent;
+  border: none;
+  border-bottom:1px solid white;
+  font-family:  'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 200px;
+  padding: 8px 0;
+  transition: border 0.5s;
+  outline:none;
+  color:#fff;
+}
+label{
+  color: white;
+}
+h1{
+    font-family:  'Montserrat', sans-serif;
+    color: white;
+}
+h1:hover{
+  color:lightblue;
+}
+input[type=button]{
+  border:1px solid white;
+  width:90px;
+  background:transparent;
+  color:white;
+  font-size: 16px;
+  line-height: 25px;
+  padding:10px 0;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+
+}
+input[type=button]:hover{
+  color:#fff;
+  background-color: black;
+}
